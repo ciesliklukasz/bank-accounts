@@ -4,9 +4,11 @@ declare(strict_types=1);
 
 namespace App\Domain;
 
+use App\Domain\Enum\Currency;
+use App\Domain\Enum\TransactionType;
 use App\Domain\Exception\DailyTransactionLimitAchievedException;
-use App\Domain\Exception\InvalidCurrencyException;
 use App\Domain\Exception\InsufficientBalanceException;
+use App\Domain\Exception\InvalidCurrencyException;
 use Ramsey\Uuid\UuidInterface;
 
 final class Account

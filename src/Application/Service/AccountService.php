@@ -7,7 +7,7 @@ namespace App\Application\Service;
 use App\Application\Exception\CannotCreateAccountException;
 use App\Application\Repository\AccountRepositoryInterface;
 use App\Domain\Account;
-use App\Domain\Currency;
+use App\Domain\Enum\Currency;
 use App\Domain\Money;
 use App\Infrastructure\Service\AccountServiceInterface;
 use Ramsey\Uuid\UuidInterface;

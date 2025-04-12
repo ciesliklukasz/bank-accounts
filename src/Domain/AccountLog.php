@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App\Domain;
 
+use App\Domain\Enum\TransactionType;
 use DateTimeInterface;
 use Ramsey\Uuid\UuidInterface;
 
